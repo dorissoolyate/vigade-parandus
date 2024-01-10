@@ -4,10 +4,10 @@ print("Ruudu karakteristikud")
 #float
 a=float(input('Sisesta ruudu külje pikkus => '))
 S=a**2
-print("Ruudu pindala", S)
+print("Ruudu pindala", round (S,1))
 P=4*a
 #"
-print("Ruudu ümbermõõt", P)
+print("Ruudu ümbermõõt",round (P,1))
 #sqrt
 di=a*math.sqrt(2)
 print("Ruudu diagonaal", round(di,2))
@@ -25,7 +25,7 @@ P=2*(b+c)
 print("Ristküliku ümbermõõt", P)
 # kvadrat**
 di=math.sqrt(b**2+c**2)
-print("Ristküliku diagonaal", round(di,2))
+print("Ristküliku diagonaal", round(di,1))
 print()
 print("Ringi karakteristikud")
 #float ""
@@ -37,4 +37,5 @@ print("Ringi läbimõõt", d)
 S=math.pi*r**2
 print("Ringi pindala", round(S,2))
 C=2*math.pi*r
+# dve skobki
 print("Ringjoone pikkus", round(C,2))
