@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9103795-71d6-48d9-ba91-a29f1f9a0be6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>vigade_parandus.py</StartupFile>
+    <StartupFile>valik.laused.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="valik.laused.py" />
     <Compile Include="vigade_parandus.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
