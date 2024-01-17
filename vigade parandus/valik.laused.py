@@ -133,7 +133,7 @@ print("-------------------------------")
 
 #zadanie 11
 dr=input("kogda dr (YYYY-MM-DD): ")
-god=int(dr[:4])
+god=int(dr[:5])
 if(god%4)==0:
     print("s dr, eto jubilej!")
 else:
